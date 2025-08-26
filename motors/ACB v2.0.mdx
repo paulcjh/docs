@@ -1,0 +1,39 @@
+---
+title: "Actuator Control Board (ACB)"
+description: "Documentation for the Actuator Control Board (ACB) v2.0"
+---
+
+# Overview
+
+The ACB v2.0 is a 3-phase BLDC motor driver with a hall effect positional encoder. it features:
+
+* STM32G474RET6 Controller
+* 9v-48v operational voltage range
+* USB-C firmware updates and control
+* CAN Bus operating at 1MBit/s
+* Up to 40A current draw
+
+## Connectors
+
+* XT60 for power supply
+* USB-C for firmware updates and control
+* 2-Pin JST GH connector for CAN connectivity
+* Test points for debugging support with companion board
+
+# Operational range limits
+
+
+
+| Name               | Min | Max | Unit |
+| :----------------- | :-- | :-- | :--- |
+| XT60 Input Voltage | 9   | 50  | V    |
+| XT60 Current Draw  | -   | 40  | A    |
+| CAN Bus Voltage    | -14 | +14 | V    |
+
+
+
+# FAQ
+
+### Can I power the board over USB-C?
+
+No. This will be available in future board revisions.

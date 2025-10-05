@@ -22,7 +22,15 @@
           {
             "group": "Motors",
             "pages": [
-              "motors/ACB v2.0"
+              {
+                "group": "ACB v2.0",
+                "pages": [
+                  "motors/ACB v2.0",
+                  "motors/Setup a New Motor",
+                  "motors/Programming"
+                ]
+              }
+              
             ]
           }
         ]

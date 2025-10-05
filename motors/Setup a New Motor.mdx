@@ -1,0 +1,17 @@
+---
+title: "Setup a New Motor"
+description: "Learn how to set up a new motor with the ACB v2.0"
+---
+
+# Overview
+
+Setting up a new motor is quite straight forward. Initially you'll need to solder on the 3 motor phases, power up the board, and then proceede to configuring the ACB v2.0.
+
+On this new motor the ACB needs a few pieces of information to operate:
+- The numeber of Pole Pairs (half the number of poles).
+- The relative orientation of the encoder magnet. This is also known as the zero electrical angle. (if using closed loop control).
+- PID parameters for controlling the velocity, position, and torque.
+
+There's a wizard available in the OpenActuator GUI. Navigate to "Tools/Setup New actuator" in the menubar. You'll be propted to enter in the Pole Pairs, and then you may proceede with the calibration.
+
+_Auto calibration for the PID variables is being worked on, check back for updates!_
